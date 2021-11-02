@@ -18,8 +18,8 @@ object myClient {
   def main(args: Array[String]): Unit = {
     val client = myClient("localhost", 50051)
     try {
-      val range = 1
-      val time = "04:01:00.000"
+      val range = 5
+      val time = "09:34:09.000"
       val bucket = "logsinput"
       val key = "log.log"
       client.find(range, time, bucket, key)
@@ -47,6 +47,8 @@ class myClient private(
       try {
         val response = blockingStub.findLog(request)
         logger.info("Greeting: " + response.result)
+        if (response.result.toInt == -1){logger.info("No log statements found for given parameters")}
+        else {logger.info("Index " + response.result + " fits the given parameters.")}
       }
       catch {
         case e: StatusRuntimeException =>

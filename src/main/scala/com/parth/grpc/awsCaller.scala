@@ -24,7 +24,7 @@ object awsCaller {
 
   def sendRequest(range: Int, time: String, bucket: String, key: String): Future[String] = {
 //    val responseFuture: Future[HttpResponse] = Http().singleRequest(request)
-    val uri = "https://a94he0mou3.execute-api.us-east-2.amazonaws.com/default/bucketextract?range=" + range + "&time=" + time + "&bucket=" + bucket + "&key=" + key
+    val uri = "https://l8g4lzzz9h.execute-api.us-east-2.amazonaws.com/default/gRPC_Boolean?range=" + range + "&time=" + time + "&bucket=" + bucket + "&key=" + key
     val responseFuture: Future[HttpResponse] = Http().singleRequest(Get(uri))
     val entityFuture: Future[HttpEntity.Strict] = responseFuture.flatMap(response => response.entity.toStrict(2.seconds))
     entityFuture.map(entity => entity.data.utf8String)
