@@ -20,5 +20,5 @@ message LambdaRequest {
 }
 
 message LambdaReply {
-  bool result = 1;
+  string result = 1;
 }

@@ -43,6 +43,7 @@ class myClient private(
     def find(range: Int, time: String, bucket: String, key: String): Unit = {
 //      logger.info("Will try to greet " + name1 + " ...")
       val request = LambdaRequest(range, time, bucket, key)
+      logger.info("Request created")
       try {
         val response = blockingStub.findLog(request)
         logger.info("Greeting: " + response.result)
