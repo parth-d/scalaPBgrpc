@@ -8,8 +8,8 @@ Compile / PB.targets := Seq(
   scalapb.gen() -> (Compile / sourceManaged).value / "scalapb"
 )
 
-val akkaVersion = "2.5.26"
-val akkaHttpVersion = "10.1.11"
+val akkaVersion = "2.6.17"
+val akkaHttpVersion = "10.2.6"
 
 // (optional) If you need scalapb/scalapb.proto or anything from
 // google/protobuf/*.proto
