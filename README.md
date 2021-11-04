@@ -15,7 +15,7 @@ The project can be subdivided into two tasks.
 
 ## Tasks
 ### Task 1
-(To add task 1)
+To check if the logs contain messages in a specific range determined by the inputs to the task, including a timestamp $\gt$ hh:mm:ss.SSS $\lt$
 ### Task 2
 (To add task 2)
 
