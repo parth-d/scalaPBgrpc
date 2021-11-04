@@ -76,4 +76,5 @@ Name | Description |
 
 ## References
 1. [ScalaPB gRPC](https://scalapb.github.io/docs/grpc)
-2. 
+2. [AKKA GET Request (HTTP)](https://github.com/akka/akka-http/blob/v10.2.6/docs/src/main/paradox/client-side/request-level.md)
+3. [gRPC Client Server Setup](https://github.com/xuwei-k/grpc-scala-sample)
