@@ -45,8 +45,35 @@ Name | Description |
 | [configTest.scala](src/test/scala/com/parth/grpc/configTest.scala) | ScalaTest class using [AnyFlatSpec](https://www.scalatest.org/scaladoc/3.2.9/org/scalatest/flatspec/AnyFlatSpec.html) with [Matchers](https://www.scalatest.org/user_guide/using_matchers) to perform various tests on the parameters saved in the [application.conf](src/main/resources/application.conf) file |
 
 ## Instructions
-### Part 1 (REST)
+1. Clone the project using `git clone https://github.com/parth-d/scalaPBgrpc`
+2. Execute `sbt clean compile`
+### 1. REST
+3. Enter the sbt shell using `sbt`
+4. Execute `runMain com.parth.rest.restClient`
 ### Part 2 (gRPC)
+3. Open 2 terminal windows
+4. Start the server on one terminal
+   1. On the terminal, execute `runMain com.parth.grpc.grpcServer`
+5. Start the client on one terminal
+   1. On the terminal, execute `runMain com.parth.grpc.grpcClient`
+   2. Wait for the results
+
+
 ### Part 3 (AWS: LogGen)
+1. Start an EC2 instance and SSH into it.
+2. Clone the project `git clone https://github.com/parth-d/LogFileGenerator`.
+3. Execute `sbt run` in the root directory of the cloned project.
 
 ## Default Results
+### 1. REST Client
+![](results/RestClient.png)
+### 2. Log Generator
+![](results/LogGenerator.png)
+### 3. gRPC Client
+![](results/grpcClient.png)
+### 4. gRPC Server
+![](results/grpcServer.png)
+
+## References
+1. [ScalaPB gRPC](https://scalapb.github.io/docs/grpc)
+2. 

@@ -1,7 +1,6 @@
 package com.parth.rest
 
 import akka.actor.ActorSystem
-import akka.actor.TypedActor.{context, self}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.client.RequestBuilding.Get
 import akka.http.scaladsl.model.{HttpEntity, HttpResponse}
