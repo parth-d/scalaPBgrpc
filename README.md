@@ -10,23 +10,24 @@
 
 ## Explanation
 The project can be subdivided into two tasks.
-1. To deploy a local gRPC client and server where the server calls a lambda function on AWS to check [this](#hi)
-2. Hi
+1. Deployed a local gRPC client and server where the server calls a lambda function on AWS to check [task 1.](#task-1)
+2. Created a REST client using [AKKA](https://akka.io/) which calls a GET method in turn invoking a lambda function via Amazon API which performs [task 2](#task-2)
 
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+## Tasks
+### Task 1
+(To add task 1)
+### Task 2
+(To add task 2)
 
-# Hi
+## Important Files
+Name | Description |
+| :---: | :---: |
+
+## Instructions
+### Part 1 (REST)
+### Part 2 (gRPC)
+### Part 3 (AWS: LogGen)
+
+## Classes (Files)
+
+## Default Results
