@@ -6,7 +6,7 @@
 |Name | Parth Deshpande|
 | UIN | 657711378 |
 | Email | [pdeshp8@uic.edu](mailto:pdeshp8@uic.edu)
-| YouTube Link (AWS EMR) | [YouTube]()
+| YouTube Link (Project Walk-through) | [YouTube](https://www.youtube.com/watch?v=t0WFmacnK9g)
 
 ## Explanation
 The project can be subdivided into two tasks.
